@@ -1,55 +1,97 @@
-# Prerequisites
-*.d
+# ============================================================
+# STM32CubeIDE / Eclipse
+# ============================================================
 
-# Object files
+# Build folders
+Debug/
+Release/
+
+# Eclipse workspace
+.metadata/
+
+# Machine-specific Eclipse settings
+.settings/language.settings.xml
+
+# Eclipse launch configurations
+*.launch
+
+
+# ============================================================
+# Generated / compiled files
+# ============================================================
+
+*.d
 *.o
 *.ko
 *.obj
 *.elf
-
-# Linker output
-*.ilk
+*.bin
+*.hex
 *.map
-*.exp
+*.out
+*.exe
 
-# Precompiled Headers
+
+# ============================================================
+# Linker / compiler output
+# ============================================================
+
+*.ilk
+*.exp
+*.su
+*.lst
+
+
+# ============================================================
+# Precompiled headers
+# ============================================================
+
 *.gch
 *.pch
 
+
+# ============================================================
 # Libraries
+# ============================================================
+
 *.lib
 *.a
 *.la
 *.lo
 
-# Shared objects (inc. Windows DLLs)
+
+# ============================================================
+# Shared libraries
+# ============================================================
+
 *.dll
 *.so
-*.so.*
+.so.
 *.dylib
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
 
+# ============================================================
 # Debug files
+# ============================================================
+
 *.dSYM/
-*.su
 *.idb
 *.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
 *.dwo
+
+
+# ============================================================
+# Operating system files
+# ============================================================
+
+.DS_Store
+Thumbs.db
+
+
+# ============================================================
+# Temporary files
+# ============================================================
+
+*.tmp
+*.bak
+*~
