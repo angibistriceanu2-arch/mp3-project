@@ -1,1 +1,1 @@
-# mp3-project
+The project involves developing a minimal MP3 player prototype, with the main component being a Serial MP3 Player A Manual, V10 version – OpenSmart. The primary purpose of this project is to play audio files. The basic audio playback control functions were implemented by connecting an STM32 development board to the OpenSmart module. The commands for stopping, resuming, skipping to the next track, and returning to the previous track are performed using the button on the development board.
